@@ -11,7 +11,7 @@ jQueryAutocompletePlus is a simple plugin which gives your input feild a Faceboo
 
 Try it [here](http://practo.github.io/jquery-autocomplete-plus/)
 
-Steps to use: 
+Steps to use:
 
 ### Add the Required files
 
@@ -37,7 +37,7 @@ Steps to use:
           label: "iamironman@stark.com",
       }
       ];
-  
+
       var hashTags = [
       {
           value: "potterhead",
@@ -51,20 +51,20 @@ Steps to use:
           value: "DcComics",
           label: "potterhead"
       }
-    ];                 
-   
+    ];
+
 ### Add your options
 
     $('.myTextarea').jqueryautocompleteplus({
        trigger1: "@",
        outputTrigger1: false,
        minLength1: 2,
-       data1: people,   
+       data1: people,
        trigger2: "#",
        outputTrigger2: true,
        minLength2: 3,
        data2: hashTags
     });
-       
+
 
 Currently jqueryAutocompletePlus supports only two (in number) triggers. But its so easy that you can easily make it work for more triggers. For each trigger, there are a set of parameters needed. Here is a descriptions of each one of them.
